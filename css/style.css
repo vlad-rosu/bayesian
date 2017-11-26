@@ -12,7 +12,7 @@
   margin-right: 0;
 }
 .count-title {
-  width:calc(100%/4);
+  font: 5vw;
   display: block;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
 .countdown .figure {
   position: relative;
   float: left;
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
   padding-bottom: 66.66%;
   margin-right: 10px;
   background-color: #fff;
@@ -37,7 +37,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  font: normal 5.94em/107px "Lato";
+  font: normal 10vw "Lato";
   font-weight: 700;
   color: #313193;
 }

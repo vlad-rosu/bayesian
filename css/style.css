@@ -4,13 +4,15 @@
 }
 .countdown .bloc-time {
   float: left;
-  margin-right: 45px;
+  margin-right: 25px;
   text-align: center;
+  width: 100%;
 }
 .countdown .bloc-time:last-child {
   margin-right: 0;
 }
-.countdown .count-title {
+.count-title {
+  width:calc(100%/4);
   display: block;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -18,8 +20,8 @@
 .countdown .figure {
   position: relative;
   float: left;
-  height: 110px;
-  width: 100px;
+  width: calc(50% - 10px);
+  padding-bottom: 66.66%;
   margin-right: 10px;
   background-color: #fff;
   border-radius: 8px;

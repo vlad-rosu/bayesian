@@ -23,7 +23,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-
+    <!-- countdown styling -->
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -63,13 +64,122 @@
             </h1>
             <hr>
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5"></p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Register Now</a>
+        </div>
+        <div class="row">
+          <div class="col countdown">
+            <span class="count-title">Days</span>
+            <div class="bloc-time days">
+              <div class="figure days days-1">
+                <span class="top">0</span>
+                <span class="top-back">
+                  <span>0</span>
+                </span>
+                <span class="bottom">0</span>
+                <span class="bottom-back">
+                  <span>0</span>
+                </span>
+              </div>
+
+              <div class="figure days days-2">
+                <span class="top">0</span>
+                <span class="top-back">
+                  <span>4</span>
+                </span>
+                <span class="bottom">0</span>
+                <span class="bottom-back">
+                  <span>0</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col countdown">
+            <span class="count-title">Hrs</span>
+            <div class="bloc-time hours">
+              <div class="figure hours hours-1">
+                <span class="top">0</span>
+                <span class="top-back">
+                  <span>2</span>
+                </span>
+                <span class="bottom">0</span>
+                <span class="bottom-back">
+                  <span>2</span>
+                </span>
+              </div>
+
+              <div class="figure hours hours-2">
+                <span class="top">0</span>
+                <span class="top-back">
+                  <span>4</span>
+                </span>
+                <span class="bottom">0</span>
+                <span class="bottom-back">
+                  <span>4</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col countdown">
+            <span class="count-title">Mins</span>
+            <div class="bloc-time min">
+              <div class="figure min min-1">
+                <span class="top">0</span>
+                <span class="top-back">
+                  <span>0</span>
+                </span>
+                <span class="bottom">0</span>
+                <span class="bottom-back">
+                  <span>0</span>
+                </span>        
+              </div>
+
+              <div class="figure min min-2">
+               <span class="top">0</span>
+               <span class="top-back">
+                <span>0</span>
+              </span>
+              <span class="bottom">0</span>
+              <span class="bottom-back">
+                <span>0</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col countdown">
+          <span class="count-title">Secs</span>
+          <div class="bloc-time sec">
+            <div class="figure sec sec-1">
+              <span class="top">0</span>
+              <span class="top-back">
+                <span>0</span>
+              </span>
+              <span class="bottom">0</span>
+              <span class="bottom-back">
+                <span>0</span>
+              </span>          
+            </div>
+
+            <div class="figure sec sec-2">
+              <span class="top">0</span>
+              <span class="top-back">
+                <span>0</span>
+              </span>
+              <span class="bottom">0</span>
+              <span class="bottom-back">
+                <span>0</span>
+              </span>
+            </div>
           </div>
         </div>
       </div>
-    </header>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <p class="text-faded mb-5"></p>
+          <!-- Make Sure EventBrite event is up and link works -->
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://www.eventbrite.com/e/bayesian-case-competition-tickets-40744675421">Register Now</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
     <section class="bg-primary" id="about">
       <div class="container">
@@ -97,21 +207,21 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-question text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Q&A Panel</h3>
               <p class="text-muted mb-0">TBD</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-bar-chart text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Workshops</h3>
               <p class="text-muted mb-0">TBD</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-users text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Networking</h3>
               <p class="text-muted mb-0">TBD</p>
             </div>
@@ -240,7 +350,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 mr-auto text-center">
+          <div class="col-lg-6 mr-auto text-center"> 
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
               For general inquiries, please email us at <a href="mailto:bayesian.uwaterloo@gmail.com">bayesian.uwaterloo@gmail.com</a>
@@ -264,6 +374,34 @@
               <a href="mailto:your-email@your-domain.com">dcmolka@uwaterloo.ca</a> -->
             </p>
           </div>
+          <div class="col-lg-6 mr-auto text-center">
+              <head>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 43.470637, lng: -80.543428};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDclBpeDBju88ROFeAEaqkcQuBp17Ydd_c&callback=initMap">
+    </script>
+          </div>
         </div>
       </div>
     </section>
@@ -279,6 +417,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+    <script  src="js/index.js"></script>
 
   </body>
 

@@ -25,6 +25,7 @@
     <link href="css/creative.min.css" rel="stylesheet">
     <!-- countdown styling -->
     <link href="css/style.css" rel="stylesheet">
+
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -192,12 +193,12 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <p class="text-faded mb-5"></p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Register Now</a>
+          <!-- Make Sure EventBrite event is up and link works -->
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://www.eventbrite.com/e/bayesian-case-competition-tickets-40744675421">Register Now</a>
         </div>
       </div>
     </div>
   </header>
-
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
@@ -224,21 +225,21 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-question text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Q&A Panel</h3>
               <p class="text-muted mb-0">TBD</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-bar-chart text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Workshops</h3>
               <p class="text-muted mb-0">TBD</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-users text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Networking</h3>
               <p class="text-muted mb-0">TBD</p>
             </div>
@@ -444,19 +445,45 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 mr-auto text-center">
+          <div class="col-lg-12 mr-auto text-center align-middle">
             <p>
               For general inquiries, please email us at <a href="mailto:bayesian.uwaterloo@gmail.com">bayesian.uwaterloo@gmail.com</a>
+            <!-- </br>
+              <a href="mailto:bayesian.uwaterloo@gmail.com">
+                <i class="fa fa-envelope-o fa-3x mb-3 sr-contact">&nbsp;</i>
+              </a>
+              <a href="http://www.facebook.com">
+                <i class="fa fa-facebook-square fa-3x mb-3 sr-contact">&nbsp;</i>
+              </a>
+              <a href="http://www.linkedin.com">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact">&nbsp;</i>
+              </a> -->
             </p>
-            <!-- <a href="mailto:bayesian.uwaterloo@gmail.com">
-              <i class="fa fa-envelope-o fa-3x mb-3 sr-contact">&nbsp;</i>
-            </a>
-            <a href="http://www.facebook.com">
-              <i class="fa fa-facebook-square fa-3x mb-3 sr-contact">&nbsp;</i>
-            </a>
-            <a href="http://www.linkedin.com">
-              <i class="fa fa-linkedin fa-3x mb-3 sr-contact">&nbsp;</i>
-            </a> -->
+          </div>
+          <div class="col-lg-12 mr-auto text-center">
+            <style>
+            #map {
+              height: 400px;
+              width: 100%;
+            }
+            </style>
+            <div id="map"></div>
+            <script>
+            function initMap() {
+              var uluru = {lat: 43.470637, lng: -80.543428};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDclBpeDBju88ROFeAEaqkcQuBp17Ydd_c&callback=initMap">
+            </script>
           </div>
         </div>
       </div>

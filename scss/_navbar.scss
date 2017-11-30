@@ -37,7 +37,7 @@
   }
   @media (min-width: 992px) {
     border-color: transparent;
-    background-color: transparent;
+    background-color: rgba(256, 256, 256, .7);
     .navbar-brand {
       color: fade-out($white, .3);
       &:focus,
@@ -50,9 +50,9 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: $black;
       &:hover {
-        color: $white;
+        color: $gray-700;
       }
     }
     &.navbar-shrink {

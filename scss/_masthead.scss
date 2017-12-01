@@ -1,5 +1,10 @@
 // Styling for the masthead
 header.masthead {
+    z-index: 1;
+    background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/header.jpg');

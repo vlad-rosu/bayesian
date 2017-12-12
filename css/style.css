@@ -24,28 +24,6 @@ html * {
   box-sizing: border-box;
 }
 
-/*body {
-  font-size: 100%;
-  font-family: "Droid Serif", serif;
-  color: #7f8c97;
-  background-color: #e9f0f5;
-}*/
-
-/*a {
-  color: #acb7c0;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-}*/
-
-/*img {
-  max-width: 100%;
-}*/
-
-/*h1, h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}*/
-
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -57,7 +35,7 @@ Modules - reusable parts of our design
   max-width: 1170px;
   margin: 0 auto;
   font-size: 100%;
-  font-family: "Droid Serif", serif;
+  /*font-family: "Droid Serif", serif;*/
   color: #7f8c97;
   background-color: #e9f0f5;
 }
@@ -252,7 +230,7 @@ Main components
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
-  font-size: 0.8125rem;
+  font-size: 1rem;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -287,10 +265,10 @@ Main components
   border-right: 7px solid white;
 }
 @media only screen and (min-width: 768px) {
-  .cd-timeline-content h2 {
+/*  .cd-timeline-content h2 {
     font-size: 20px;
     font-size: 1.25rem;
-  }
+  }*/
   .cd-timeline-content p {
     font-size: 16px;
     font-size: 1rem;

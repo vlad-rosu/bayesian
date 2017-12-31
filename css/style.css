@@ -1,3 +1,6 @@
+    max-width: 50%;
+}
+
 .under-line {
     height: 3px;
     width: 40%;
@@ -54,7 +57,7 @@ Main components
 
 #cd-timeline {
   position: relative;
-  padding: 2em 0;
+  padding: 0px;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -212,6 +215,12 @@ Main components
     transform: scale(1);
   }
 }
+
+.cd-date {
+  color: white;
+  font-size: 2rem;
+}
+
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
@@ -251,7 +260,7 @@ Main components
 }
 .cd-timeline-content .cd-date {
   float: left;
-  padding: .8em 0;
+  padding: 0;
   opacity: .7;
 }
 .cd-timeline-content::before {
@@ -280,8 +289,8 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 0;
+    /*margin-right: 15px;*/
     padding: 1.6em;
     width: 45%;
   }
@@ -300,7 +309,7 @@ Main components
     left: 122%;
     top: 6px;
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 1.75rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;

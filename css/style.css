@@ -234,6 +234,12 @@ Main components
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+    .cd-date {
+      color: black;
+    }
+  }
+
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;

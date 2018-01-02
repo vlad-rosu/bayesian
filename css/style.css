@@ -12,6 +12,14 @@
     background-color: #313193;
 }
 
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
 /* -------------------------------- 
 
 Primary style

@@ -1,3 +1,24 @@
+$(document).ready(function(){
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $('#back-to-top').fadeIn();
+    } else {
+      $('#back-to-top').fadeOut();
+    }
+  });
+// scroll body to 0px on click
+$('#back-to-top').click(function () {
+  $('#back-to-top').tooltip();
+  $('body,html').animate({
+    scrollTop: 0
+  }, 800);
+  return false;
+});
+
+$('#back-to-top').tooltip();
+
+});
+
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 27, 2018 08:30:00").getTime();
 

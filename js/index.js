@@ -44,6 +44,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "0 days 0 hrs 0 mins 0 secs";
   }
 }, 1000);

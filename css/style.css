@@ -67,6 +67,10 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
+.cd-read-more {
+  width: 45%;
+  background-color: rgb(0, 116, 183) !important;
+}
 
 #cd-timeline {
   position: relative;

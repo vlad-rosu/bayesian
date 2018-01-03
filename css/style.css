@@ -71,7 +71,7 @@ Main components
   width: 50%;
   border: solid white;
   border-radius: 15px !important;
-  background: #75ce66 !important;
+  background: #6ccff6 !important;
 }
 
 #cd-timeline {
@@ -148,13 +148,13 @@ Main components
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #6ccff6;
 }
 .cd-timeline-img.cd-movie {
   background: #c03b44;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #0074b7
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {

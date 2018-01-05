@@ -1,6 +1,6 @@
 .left-indent {
-  padding-left: 35px; 
-  padding-top: 10px;
+  padding-left: 45px; 
+  padding-top: 15px;
 }
 
 .under-line {
@@ -44,7 +44,6 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
   max-width: 1170px;
   margin: 0 auto;
   font-size: 100%;

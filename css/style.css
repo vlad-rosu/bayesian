@@ -1,3 +1,8 @@
+.left-indent {
+  padding-left: 35px; 
+  padding-top: 10px;
+}
+
 .under-line {
   height: 3px;
   width: 40%;

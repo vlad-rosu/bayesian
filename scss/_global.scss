@@ -81,3 +81,19 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $gray-900;
 }
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+
+
+#scotia {
+  display: block;
+  margin-left: 40%;
+
+}
